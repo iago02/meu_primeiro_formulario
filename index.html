@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Iago costa">
+    <title>formulario</title>
+</head>
+
+<body>
+    <legend> <h2> formulario do aluno </h2></legend>
+    <form action="/pagina-processa-dados-do-form" method="post">
+        <div class="nome do aluno">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" />
+        </div>
+        <div class="e-mail"> 
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" />
+        </div>
+        <div class="numero de instcrição">
+            <label for="nun"> numero de inscrição :</label>
+            <input type="number"></input>
+        </div>
+       <legend> <h2>Qual sua idade</h2> </legend>
+        <div>
+            <input type="checkbox" id="21 anos " name="idade">
+            <label for="21 anos"> 21 anos </label>
+        </div>
+        <div>
+            <input type="checkbox" id="22 anos " name="idade">
+            <label for="22 anos"> 22 anos </label>
+        </div>
+        <div>
+            <input type="checkbox" id=" 23 anos" name="idade">
+            <label for="23 anos"> 23 anos </label>
+        </div>
+        <div>
+            <input type="checkbox" id="24 anos" name= "idade">
+            <label for="24 anos"> 24anos </label>
+        </div>
+        <div>
+            <input type="checkbox" id=" 25 anos " name="idade">
+            <label for="25 anos"> 25 anos </label>
+        </div>
+        <fieldset>
+            <legend><h2>cargo profissional</h2></legend>
+        <div>
+            <input type="radio" id="auxiliar " name="nivel" value="auxiliar de manutenção">
+            <label for="auxiliar de manutenção">auxiliar de manutenção</label>
+        </div>
+        <div>
+            <input type="radio" id="tecnico" name="nivel" value="auxiliar de refrigeração">
+            <label for="tecnico de refrigeração">tecnico de refrigeração</label>
+        </div>
+        <div>
+            <input type="radio" id="graduado" name="nivel" value="auxiliar admistrativo">
+            <label for="admistrativo"> admistrativo </label>
+        </div>
+        <div class="controls">
+    
+        </div>
+            </fieldset>
+            <div>
+                <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
